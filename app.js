@@ -6,3 +6,4 @@ const server = http.createServer(function (req, res) {
   res.end();
 });
 server.listen(5000);
+console.log("Server running at localhost:5000");
